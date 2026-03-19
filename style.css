@@ -7,7 +7,7 @@
     width: 1440px;
     height: 88px;
     background-color: rgba(255, 255, 255, 1);
-    border: 1px solid black;
+    border: 2px solid black;
 }
 .box2{
     width: 1440px;
@@ -23,10 +23,8 @@
 
 header nav{
     display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-    
+	justify-content: flex-end;
+	    
 }
 
 nav ul{
@@ -34,7 +32,8 @@ nav ul{
     padding-top: 30px;
     display: flex;
 	list-style: none;
-	gap: 10px;
+	gap: 20px;
+    margin-right: 40px;
     
 }
 
@@ -66,7 +65,7 @@ nav ul{
 .box3{    
     width: 1440px;
     height: 569px;
-    border: 1px solid blue;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .slide-b {
